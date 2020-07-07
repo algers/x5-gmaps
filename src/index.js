@@ -8,6 +8,7 @@ export { default as gmapsPolyline } from './components/Polyline.vue'
 export { default as gmapsPolygon } from './components/Polygon.vue'
 export { default as gmapsPopup } from './components/Popup.vue'
 export { default as gmapsRectangle } from './components/Rectangle.vue'
+export { default as gmapsTransit } from './components/Transit.vue'
 import './scss/index.scss'
 
 const install = (Vue, options) => {
