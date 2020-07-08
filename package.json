@@ -1,53 +1,23 @@
 {
-  "name": "x5-gmaps",
-  "version": "0.3.14",
-  "private": false,
-  "description": "A lightweight Google Maps plugin for Vue",
-  "author": "Keagan Chisnall",
+  "name": "x5-gmaps-sean",
+  "version": "1.0.0",
+  "description": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/x5-gmaps)",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --mode production",
-    "deploy": "rimraf dist && webpack && npx publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "dist",
-  "files": [
-    "dist"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@vue/cli-plugin-babel": "^4.4.6",
-    "@vue/cli-plugin-eslint": "^4.4.6",
-    "@vue/cli-service": "^4.4.6",
-    "babel-eslint": "^10.0.3",
-    "cache-loader": "^4.1.0",
-    "copy-webpack-plugin": "^6.0.3",
-    "core-js": "^3.6.5",
-    "css-loader": "^3.6.0",
-    "eslint": "^7.4.0",
-    "eslint-plugin-vue": "^6.1.2",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.1",
-    "style-loader": "^1.2.1",
-    "vue": "^2.6.11",
-    "vue-loader": "^15.9.3",
-    "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  },
-  "bugs": {
-    "url": "https://github.com/xon52/x5-gmaps/issues"
-  },
-  "homepage": "https://github.com/xon52/x5-gmaps#readme",
-  "keywords": [
-    "vue",
-    "plugin",
-    "map",
-    "google"
-  ],
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xon52/x5-gmaps.git"
-  }
+    "url": "git+https://github.com/algers/x5-gmaps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algers/x5-gmaps/issues"
+  },
+  "homepage": "https://github.com/algers/x5-gmaps#readme"
 }
